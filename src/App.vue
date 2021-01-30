@@ -13,6 +13,7 @@ export default {
   },
   computed: {
     getA ({ abc }) {
+      console.log(456);
       console.log(abc)
       return ''
     }
